@@ -1,0 +1,6 @@
+# 临时 / 系统
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+temp-line*.txt

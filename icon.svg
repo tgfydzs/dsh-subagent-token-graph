@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Subagent token graph">
+  <title>Subagent token graph</title>
+  <!--
+    A three-node delegation graph: one root on the left, two derived nodes on
+    the right, joined by curved edges. Drawn with the brand blue and the
+    neutral inks the host theme uses, so the icon reads correctly in both the
+    light and the dark palette.
+  -->
+  <defs>
+    <linearGradient id="stg-edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4176e6" stop-opacity="0.55" />
+      <stop offset="1" stop-color="#4176e6" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Edges: root to each derived node. -->
+  <path d="M 26 32 C 36 32, 38 18, 48 18" fill="none" stroke="url(#stg-edge)" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 26 32 C 36 32, 38 46, 48 46" fill="none" stroke="url(#stg-edge)" stroke-width="2.5" stroke-linecap="round" />
+
+  <!-- Root node. -->
+  <rect x="6" y="22" width="20" height="20" rx="6" fill="#4176e6" />
+  <rect x="10" y="26" width="12" height="12" rx="4" fill="#ffffff" fill-opacity="0.22" />
+
+  <!-- Derived nodes. -->
+  <rect x="44" y="8" width="16" height="16" rx="5" fill="#ffffff" stroke="#4176e6" stroke-width="2.5" />
+  <rect x="44" y="40" width="16" height="16" rx="5" fill="#ffffff" stroke="#4176e6" stroke-width="2.5" />
+</svg>

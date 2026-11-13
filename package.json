@@ -1,0 +1,47 @@
+{
+  "name": "@local/dsh-subagent-token-graph",
+  "version": "1.0.0",
+  "description": "Node-graph view of token usage across a conversation and its derived subagents, as a DSH desktop conversation tab.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "subagent",
+    "token",
+    "usage",
+    "visualization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgfydzs/dsh-subagent-token-graph.git"
+  },
+  "homepage": "https://github.com/tgfydzs/dsh-subagent-token-graph#readme",
+  "bugs": {
+    "url": "https://github.com/tgfydzs/dsh-subagent-token-graph/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "semantics.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "子代理 Token 节点图",
+    "description": "以节点图展示当前对话及其派生子代理的 Token 用量。"
+  }
+}

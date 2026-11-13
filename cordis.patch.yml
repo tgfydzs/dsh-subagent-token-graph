@@ -1,0 +1,8 @@
+- insert:
+    - id: subagent-token-graph
+      name: '@local/dsh-subagent-token-graph'
+      config:
+        # Poll interval in milliseconds for the live token graph. The graph is
+        # only polled while its Conversation tab is visible, so this bounds the
+        # cost of an open tab, not the cost of the plugin at rest.
+        pollIntervalMs: 2000

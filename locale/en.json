@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Subagent token graph",
+    "description": "Shows a node graph of token usage across a conversation and the subagents it derived."
+  }
+}
